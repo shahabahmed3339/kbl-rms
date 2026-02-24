@@ -1,0 +1,40 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "description": "Mern Auth Example",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "faker": "^5.5.3",
+    "folder-encrypt": "^1.1.7",
+    "frontail": "^4.9.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "fstream": "^1.0.12",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.11",
+    "multer": "^1.4.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-lazylog": "^4.5.3",
+    "react-vis": "^1.11.7",
+    "request": "^2.88.2",
+    "tar": "^6.1.11",
+    "validator": "^10.9.0"
+  }
+}

@@ -1,0 +1,90 @@
+.navbar-gradient{
+  margin-top: 10px;
+  background: linear-gradient(to bottom, #3895ff 0%, #3895ff 100%);
+  border-radius: 10px !important;
+  color: white !important;
+}
+
+.navlink-custom:hover{
+  background: linear-gradient(to bottom, #0077ff 0%, #0077ff 100%);
+  border-radius: 10px;
+  color: white !important;
+}
+
+.bg-gradient{
+  background: linear-gradient(to right, #89f7fe 0%, #66a6ff 100%);
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.img-custom{
+  width: 90%;
+}
+
+th,td{
+  text-align: center !important;
+  font-size: 11px;
+  border: 1px solid #005fcc;
+  padding: 5px;
+  color: #d3e7ff;
+}
+
+th {
+  background: #0077ff;
+}
+
+td {
+  background: #3895ff;
+}
+
+.cols {
+  display: flex;
+  align-items: center;
+}
+
+.margs {
+  margin: 10px;
+}
+
+.margs1 {
+  margin: 0 10px 0 0;
+}
+
+.react-tagsinput-input {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  border-radius: 5px;
+}
+
+.react-tagsinput-tag {
+  background-color: rgb(223, 31, 31) !important;
+  border-radius: 5px !important;
+  border: 1px solid rgb(223, 31, 31) !important;
+  color: black !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.react-tagsinput--focused {
+  border-color: #ced4da !important;
+}
+
+.action2 {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.action2:hover {
+	color: white;
+}
+
+@media only screen and (min-width: 978px) {
+
+  .form-control {
+    width: 300px;
+  }
+}
+
